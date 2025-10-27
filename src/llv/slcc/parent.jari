@@ -1,0 +1,22 @@
+s_
+
+[4.5] | {
+       dsl.run compile(in.sys) @runtime {
+            ls: "jarlang" "rime" "frosttl" "flamewire" "lcs" 
+       }
+}
+
+[4.5] | {
+       run.dabge --force compile(in.sys) @runtime ./jarlang_all 
+       run.sierra --force compile(in.sys) @runtime ./rime 
+       run.sierra --force compile(in.sys) @runtime ./frosttl 
+       run.sierra --force compile(in.sys) @runtime ./flamewire 
+       run.sierra --force compile(in.sys) @runtime ./lcs 
+       run.shimmer --force run(in.sys) @cli_inp ./shim 
+}
+
+[4.5] | {
+       lsn func.compile verify.reach %ssan% = cut
+}
+
+
