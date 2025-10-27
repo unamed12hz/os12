@@ -1,0 +1,17 @@
+@parent 
+
+[4.5] | {
+       sig.reach wing.key = match.(val) 
+       sys priv_layer:wall(active) {                //look; seas of gold
+            all.call start fs.(../sec) {
+                    reach.sig key
+            }
+       }
+}
+
+[4.5] | {
+       force self_recog in.layer {
+            layer_priv access(call = r) release(unnamed(-0))
+       }
+}
+

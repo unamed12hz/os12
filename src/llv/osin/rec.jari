@@ -1,0 +1,14 @@
+s_
+
+[4.5] | {
+       verify.reach fs.run of(func(mod)_osin) {
+            wing.key = 'val: '
+            run.match(mosi)
+       } 
+}
+
+[4.5] | {
+       rec call @func:mod_func find.db $%_% path = cased 
+       int(.sign) 
+}
+
